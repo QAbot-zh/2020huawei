@@ -38,7 +38,8 @@
 
 python: 评测版本为3.7, 除原生库外, 外部库只允许使用numpy, 版本为1.17.2  
 
-:warning: **要点**: 
+#⚠️⚠️⚠️  
+**要点**: 
 1. 找环的逻辑要完整, 不要漏,不要多  
    ps:评测时若返回信息类似:  "17% THE RESULT IS INCORRECT.", 则表明在对比结果文件时约17%处发生错误, 请检查找环的逻辑是否完整或者是否正确排序
 2. 尽量减少搜索的范围, 因为28w数据构成的图如果层层dfs, 运算数量级非常大, 若运行太久可能会报超时: "0% TIME LIMIT EXCEED" , 可能是dfs太久或者陷入局部死循环了
@@ -51,4 +52,4 @@ https://github.com/liusen1006/2020HuaweiCodecraft-TestData.git
 code --diff [file1] [file2]
 ```
 
-Finally, python/java/c++玩家不分区, 所以深感python玩不转, 总结一下就拜拜了. 早点开学吧 :broken_heart:
+Finally, python/java/c++玩家不分区, 所以深感python玩不转, 总结一下就拜拜了. 早点开学吧 💔💔💔 
